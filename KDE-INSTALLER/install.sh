@@ -40,7 +40,7 @@ then
 	cp installer-Amdgpu-EFI-Full.sh /mnt/Installer
 	cp installer-Intel-EFI-Full.sh /mnt/Installer
 	cp installer-Nvidia-EFI-Full.sh /mnt/Installer
-	echo "Installer: Installer part2 is installed to /Installer/ for graphics drivers and BIOS or UEFI"
+	echo "Installer: Installer part2 is installed to /Installer/ for graphics drivers and UEFI"
 	echo "Installer: use chmod +x on installer of choice"
 	arch-chroot /mnt
 	
